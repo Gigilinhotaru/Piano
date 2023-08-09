@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Timbre Buttons</title>
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .timbre-button {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .timbre-button:hover {
+    background-color: white;
+    color: black;
+  }
+</style>
+</head>
+<body>
+  <div class="button-container">
+    <div class="timbre-button">Do</div>
+    <div class="timbre-button">Re</div>
+    <div class="timbre-button">Mi</div>
+    <div class="timbre-button">Fa</div>
+    <div class="timbre-button">So</div>
+    <div class="timbre-button">La</div>
+    <div class="timbre-button">Si</div>
+  </div>
+</body>
+</html>
